@@ -1,0 +1,15 @@
+@font-face {
+    font-family: ttf;
+    src: url(comic.ttf);
+}
+
+body {
+    background-image: url(maxresdefault.jpg);
+    background-color: #cccccc;
+    background-size: cover;
+    background-repeat: repeat-y
+}
+
+title {
+    font-family: ttf;
+}

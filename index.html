@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ore wa ochinchin ga daisuki nandayo</title>
+    <link rel="stylesheet" href="css.css">
+    <link rel="icon" href="Smile.jpg">
+</head>
+
+<body>
+    <audio class="audio" src="deadman.mp3" preload="auto" autoplay loop>
+  </audio>
+</body>
+
+</html>
+
+<script>
+    src = "/howler.js-master/dist/howlwer.js"
+</script>
+<script>
+    var sound = new Howl({
+        src: ['deadman.mp3'],
+        autoplay: true,
+        loop: true,
+        volume: 1,
+        onend: function() {
+            console.log('Finished!');
+        }
+    });
+</script>
